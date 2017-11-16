@@ -2,17 +2,27 @@
 	<%= render 'layouts/flynn-head' %>
 <% end %>
 
+<div id="full-content">
 
-<%= render 'home/flynn-layouts/nav-top-1' %>
+	<%= render 'home/flynn-layouts/nav-1' %>
+	
+	<%= render 'home/flynn-layouts/sections/0' %>
+	
+	<%= render 'home/flynn-layouts/nav-2' %>
 
-<%= render 'home/flynn-layouts/sections/0' %>
+	<div id="section-container">
+		<%= render 'home/flynn-layouts/sections/1' %>
 
-<%= render 'home/flynn-layouts/nav-top-2' %>
+		<%= render 'home/flynn-layouts/sections/2' %>
 
-<%= render 'home/flynn-layouts/sections/1' %>
+		<%= render 'home/flynn-layouts/sections/3' %>
 
-<%= render 'home/flynn-layouts/sections/2' %>
+		<%= render 'home/flynn-layouts/sections/4' %>
 
-<%= render 'home/flynn-layouts/sections/3' %>
+		<%= render 'home/flynn-layouts/sections/5' %>
 
-<%= render 'home/flynn-layouts/footer' %>
+		<%= render 'home/flynn-layouts/nav-3' %>
+
+		<%= render 'home/flynn-layouts/footer' %>
+	</div>
+</div>
