@@ -1,5 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
-	background-color: rgba(0,250,0,0.4);
+	background-color: white;
+}
+
+.nav-top-1 {
+	
 }
 
 
+.nav-top-1 ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+
+	line-height: 82px;
+
+	list-style: none;
+}
+
+#nav-logo {
+}
+
+#spacer {
+	min-width: 540px;
+}

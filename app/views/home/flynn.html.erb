@@ -1,23 +1,18 @@
-<% content_for :lp_css do %>
-    <%= stylesheet_link_tag :flynn  -%>
+<% content_for :head do %>
+	<%= render 'layouts/flynn-head' %>
 <% end %>
 
-<header role="banner">
-	<div class="container">
-		<div class="column">
-			<nav class="top-nav" role="navigation">
-				<ul id="menu-top-menu" class="top-menu"><li class="menu-i-am-an-applicant"><a class="" href="https://applicant.checkr.com/">I Am an Applicant</a></li>
-<li class="menu-api-docs"><a class="" href="https://docs.checkr.com/">API &#038; Docs</a></li>
-<li class="menu-about-us"><a class="" href="https://checkr.com/about/">About Us</a></li>
-<li class="menu-careers"><a class="" href="https://checkr.com/careers/">Careers</a></li>
-</ul>			</nav>
 
-			<nav class="right-nav" role="navigation">
-				<ul id="right-menu" class="">
-					<li class="menu-log-in"><a target="_blank" href="https://dashboard.checkr.com/login?next=%2Freports">Log In</a></li>
-					<li class="menu-get-started"><a href="/get-started">Get Started</a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-</header>
+<%= render 'home/flynn-layouts/nav-top-1' %>
+
+<%= render 'home/flynn-layouts/sections/0' %>
+
+<%= render 'home/flynn-layouts/nav-top-2' %>
+
+<%= render 'home/flynn-layouts/sections/1' %>
+
+<%= render 'home/flynn-layouts/sections/2' %>
+
+<%= render 'home/flynn-layouts/sections/3' %>
+
+<%= render 'home/flynn-layouts/footer' %>
