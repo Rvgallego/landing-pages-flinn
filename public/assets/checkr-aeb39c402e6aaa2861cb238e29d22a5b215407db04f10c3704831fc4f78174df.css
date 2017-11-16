@@ -1,0 +1,15 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.top-nav {
+	height: 10vh;
+	width: 98vw;
+	
+	background-color: rgba(0,0,250,0.4);
+}
+
+a {
+	color: grey;
+}
